@@ -1,3 +1,12 @@
+Core Features:
+GPS-Denied Navigation: Operates without GNSS using onboard vision-based localization
+Visual Odometry: Estimates drone motion using sequential image frames
+Real-Time Processing: High-performance inference on Jetson Orin Nano
+Autonomous Maneuvering: Position control using NED frame transformations
+Flight Controller Integration: Seamless communication between Jetson and Pixhawk using MAVLink
+
+
+Technical Approach:
 1. Visual Based Localization
 Captured real-time video feed from onboard camera
 Applied computer vision techniques (OpenCV) for feature detection and tracking
