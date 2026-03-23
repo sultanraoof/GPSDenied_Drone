@@ -1,0 +1,9 @@
+Frame: F450 Quadcopter
+
+Flight Controller: Pixhawk Cube
+
+Companion Computer: NVIDIA Jetson Orin Nano
+
+Communication: MAVLink (via serial/UDP)
+
+Navigation Framework: NED (North-East-Down) coordinate system
