@@ -1,0 +1,22 @@
+1. Visual Based Localization
+Captured real-time video feed from onboard camera
+Applied computer vision techniques (OpenCV) for feature detection and tracking
+Estimated motion using frame-to-frame displacement (visual odometry)
+
+2. Coordinate Transformation
+Converted visual displacement into NED coordinate system
+Enabled consistent motion planning relative to drone orientation
+
+3. Control Pipeline
+Generated velocity/position setpoints from perception output
+Sent commands to Pixhawk via MAVLink protocol
+Enabled closed-loop control for stable navigation
+
+4. Companion Computer Integration
+Jetson Orin Nano handled:
+  Image processing
+  Localization logic
+  High-level decision making
+Pixhawk handled:
+  Low-level stabilization
+  Motor control
