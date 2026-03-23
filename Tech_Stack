@@ -1,0 +1,9 @@
+Programming: Python, C++ (optional for optimization)
+
+Libraries: OpenCV, NumPy
+
+Flight Stack: ArduPilot / PX4
+
+Communication: MAVLink
+
+Hardware Acceleration: NVIDIA Jetson Orin Nano 8gb
