@@ -1,0 +1,11 @@
+Applications:
+  Indoor navigation
+  Search & rescue in GPS-denied zones
+  Defense and surveillance operations
+  Warehouse and industrial automation
+
+Future Improvements:
+  Integration with SLAM algorithms (ORB-SLAM / RTAB-Map)
+  Sensor fusion with IMU + LiDAR + Camera
+  Deep learning-based object-aware navigation
+  ROS2-based modular architecture
